@@ -224,3 +224,11 @@ no changes added to commit (use "git add" and/or "git commit -a")
 - Present tense
 ### One commit is on change
 - Don't fix bugs/ implement new features in 1 commit
+
+---
+
+# Committing
+### Use git add patch
+- `git add --patch` or `git add -p`
+- Better control of what will be added to commit
+- Make a habit of this one
