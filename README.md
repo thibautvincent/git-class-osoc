@@ -89,3 +89,15 @@ Git compares the current state to the last state stored in the history
 - Can have a body (mostly used to explain why change was made)
 
 ---
+
+# Creating a commit
+## Add files to your commit
+- Command: `git add {route to file}`
+
+
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git add index.html
+```
+
+---
