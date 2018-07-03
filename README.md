@@ -57,3 +57,9 @@ Initialized empty Git repository in /Users/thibautvincent/Projects/git-demo/.git
 ```
 
 ---
+
+# Working on existing files in repository
+- Start working on files
+ `git clone git@github.com:thibautvincent/git-class-osoc.git`
+
+---
