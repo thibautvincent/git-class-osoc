@@ -51,7 +51,7 @@ $ git config --global user.email lorem@ips.um
 
 # Initializing of my project (example)
 ```terminal
-thibaut in ~/Projects/git-demo
+thibaut in ~/Projects/git-class-osoc
 $ git init
 Initialized empty Git repository in /Users/thibautvincent/Projects/git-demo/.git/
 ```
@@ -61,5 +61,21 @@ Initialized empty Git repository in /Users/thibautvincent/Projects/git-demo/.git
 # Working on existing files in repository
 - Start working on files
  `git clone git@github.com:thibautvincent/git-class-osoc.git`
+
+---
+
+# After changing files
+
+## Check the status
+`git status`
+```terminal
+thibaut in ~/Projects/git-class-osoc
+$ git status
+#
+# Untracked files:
+#	index.html
+#
+```
+Git compares the current state to the last state stored in the history
 
 ---
