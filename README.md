@@ -101,3 +101,17 @@ $ git add index.html
 ```
 
 ---
+
+# Creating a commit
+## After file is added
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git status
+#
+# Changes to be committed:
+# (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   index.html
+#
+```
+---
