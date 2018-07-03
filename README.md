@@ -233,3 +233,48 @@ no changes added to commit (use "git add" and/or "git commit -a")
 - Better control of what will be added to commit
 - Make a habit of this one
 
+---
+
+# Committing
+### Added file by accident?
+```git reset index.html```
+
+### Compare the current state with the previously committed state
+``` git diff index.html```
+
+---
+
+# History
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git log
+commit c53f9b6bd0e7271af7c5d856f84f51d9b749d77f
+Author: Thibaut <thibautvincent@icloud.com>
+Date:   Tue Mar 19 22:09:32 2013 +0100
+
+    Hello
+
+commit 1d7a18481b5f6664d2cf30b1455c6ad1c041caa2
+Author: Thibaut <thibautvincent@icloud.com>
+Date:   Tue Mar 19 21:24:13 2013 +0100
+
+    Deleted test2.txt
+```
+
+---
+
+### Summary
+#### Create repository
+`$ git init`
+#### Stage file
+`$ git add file`
+### Unstage file
+`$ git reset file`
+
+---
+#### Commit staged changes
+`$ git commit`
+#### Check differences in a file (compared to repository)
+`$ git diff file`
+####  Check history
+`$ git history`
