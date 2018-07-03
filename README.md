@@ -138,3 +138,25 @@ git commit
 ```
 
 ---
+
+# Creating a commit
+## Save your changes
+```sh
+Creation of the homepage
+
+This page will be the homepage of the site.
+
+# Please enter the commit message for your changes. Lines
+# starting with '#' will be ignored, and an empty
+# message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be commited
+# New file: index.html
+#
+```
+
+---
