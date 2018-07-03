@@ -24,3 +24,11 @@ $ git config --global user.email lorem@ips.um
 ```
 
 ---
+
+# GIT GUI's (not recommanded)
+- Some very basic GUIS
+- Other Git GUIs also exist
+	- Windows: Sourcetree, TortoiseGit, SmartGit, etc.
+	- OS X: Sourcetree, Tower (paid), etc.
+
+---
