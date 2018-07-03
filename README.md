@@ -52,7 +52,7 @@ $ git config --global user.email lorem@ips.um
 ---
 
 # Initializing of my project (example)
-```terminal
+```sh
 thibaut in ~/Projects/git-class-osoc
 $ git init
 Initialized empty Git repository in /Users/thibautvincent/Projects/git-demo/.git/
@@ -70,7 +70,7 @@ Initialized empty Git repository in /Users/thibautvincent/Projects/git-demo/.git
 
 ## Check the status
 `git status`
-```terminal
+```sh
 thibaut in ~/Projects/git-class-osoc
 $ git status
 #
