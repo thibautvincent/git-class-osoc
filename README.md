@@ -161,8 +161,7 @@ This page will be the homepage of the site.
 
 ---
 
-# Creating a commit
-# Push you changes
+# Push commit
 - Push new branch
 ```sh
 thibaut in ~/Projects/git-class-osoc
@@ -176,7 +175,7 @@ $ git push
 
 ---
 
-# Creating a commit
+# Push commit
 ## Result
 ```sh
 thibaut in ~/Projects/git-class-osoc
