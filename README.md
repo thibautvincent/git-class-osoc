@@ -213,3 +213,14 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
+
+---
+
+# Committing
+#### Change last commit
+`git commit --amend`
+#### Write good commit messages
+- English
+- Present tense
+### One commit is on change
+- Don't fix bugs/ implement new features in 1 commit
