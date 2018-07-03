@@ -233,9 +233,3 @@ no changes added to commit (use "git add" and/or "git commit -a")
 - Better control of what will be added to commit
 - Make a habit of this one
 
-
-# Committing
-### Use git add patch
-- `git add --patch` or `git add -p`
-- Better control of what will be added to commit
-- Make a habit of this one
