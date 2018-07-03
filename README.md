@@ -12,3 +12,15 @@ By Thibaut Vincent
 	- Works offline & online
 
 ---
+
+
+# Installation & basic configuration
+
+- Download the Git binary from git-scm.com (Windows)
+- Set default credentials
+```
+$ git config --global user.name "Lorem Ipsum"
+$ git config --global user.email lorem@ips.um
+```
+
+---
