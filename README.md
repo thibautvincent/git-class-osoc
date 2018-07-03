@@ -188,3 +188,28 @@ $ git commit
 
 # Flow visualization
 ![Flow visualization](/Users/thibautvincent/Projects/git-class-osoc/flowvisualization.png)
+
+---
+
+# Comitting
+Only staged files are committed (`git add`)
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git status
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	flowvisualization.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
