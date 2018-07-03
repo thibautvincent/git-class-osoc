@@ -160,3 +160,29 @@ This page will be the homepage of the site.
 ```
 
 ---
+
+# Creating a commit
+# Push you changes
+- Push new branch
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git push --set-upstream origin master
+```
+- Push existing branch
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git push
+```
+
+---
+
+# Creating a commit
+## Result
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git commit
+[master 0d2d4f2] Add title and body to commit
+ 1 file changed, 22 insertions(+)
+```
+
+---
