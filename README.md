@@ -81,3 +81,11 @@ $ git status
 Git compares the current state to the last state stored in the history
 
 ---
+
+
+# Creating a commit
+- A commit saves a change
+- Has a clear title that explains what happened
+- Can have a body (mostly used to explain why change was made)
+
+---
