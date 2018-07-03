@@ -1,3 +1,5 @@
+<!-- $theme: gaia -->
+
 Git
 ===
 By Thibaut Vincent
