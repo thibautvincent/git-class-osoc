@@ -213,6 +213,7 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
+<<<<<<< HEAD
 
 ---
 
@@ -232,3 +233,5 @@ no changes added to commit (use "git add" and/or "git commit -a")
 - `git add --patch` or `git add -p`
 - Better control of what will be added to commit
 - Make a habit of this one
+=======
+>>>>>>> 7a917d4698952ecb2c312c8d8965eccbf0d2808c
