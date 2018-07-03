@@ -185,3 +185,6 @@ $ git commit
 ```
 
 ---
+
+# Flow visualization
+![Flow visualization](/Users/thibautvincent/Projects/git-class-osoc/flowvisualization.png)
