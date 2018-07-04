@@ -184,7 +184,6 @@ $ git commit
 
 ---
 
-# Comitting
 Only staged files are committed (`git add`)
 ```sh
 thibaut in ~/Projects/git-class-osoc
@@ -209,7 +208,6 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 ---
 
-# Committing
 #### Change last commit
 `git commit --amend`
 #### Write good commit messages
@@ -220,15 +218,13 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 ---
 
-# Committing
-### Use git add patch
+### Patching
 - `git add --patch` or `git add -p`
 - Better control of what will be added to commit
 - Make a habit of this one
 
 ---
 
-# Committing
 ### Added file by accident?
 ```git reset index.html```
 
