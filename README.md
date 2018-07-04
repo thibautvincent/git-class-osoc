@@ -41,7 +41,7 @@ $ git config --global user.email lorem@ips.um
 
 ## Creating repository
 - Start tracking files in a directory with
-`git init`
+	`$ git init`
 
 - Autocreation of `.git` folder
 	- Meta information
@@ -89,7 +89,7 @@ Git compares the current state to the last state stored in the history
 ---
 
 ### Add files to your commit
-- Command: `git add {route to file}`
+- Command: `$ git add {route to file}`
 
 
 ```sh
@@ -113,9 +113,8 @@ $ git status
 ---
 
 ### Save your changes
-```sh
-git commit
-```
+
+	git commit
 
 ```sh
 
@@ -209,7 +208,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ---
 
 #### Change last commit
-`git commit --amend`
+	git commit --amend
 #### Write good commit messages
 - English
 - Present tense
