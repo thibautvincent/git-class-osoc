@@ -253,16 +253,25 @@ Date:   Tue Mar 19 21:24:13 2013 +0100
 
 ### Summary
 #### Create repository
-`$ git init`
+	$ git init
 #### Stage file
-`$ git add file`
+	$ git add file
 ### Unstage file
-`$ git reset file`
+	$ git reset file
 
 ---
 #### Commit staged changes
-`$ git commit`
+	$ git commit
 #### Check differences in a file (compared to repository)
-`$ git diff file`
+	$ git diff file
 ####  Check history
-`$ git history`
+	$ git history
+
+---
+
+# Branching
+- The entire commit history can be visualized as a timeline
+![](/Users/thibautvincent/Projects/git-class-osoc/branch-history.png)
+
+- This timeline is also called a branch
+![](/Users/thibautvincent/Projects/git-class-osoc/master-branch.png)
