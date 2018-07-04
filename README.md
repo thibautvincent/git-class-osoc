@@ -66,8 +66,6 @@ Initialized empty Git repository in /Users/thibautvincent/Projects/git-demo/.git
 
 ---
 
-# After changing files
-
 ## Check the status
 `git status`
 ```sh
@@ -83,15 +81,14 @@ Git compares the current state to the last state stored in the history
 ---
 
 
-# Creating a commit
+## Creating a commit
 - A commit saves a change
 - Has a clear title that explains what happened
 - Can have a body (mostly used to explain why change was made)
 
 ---
 
-# Creating a commit
-## Add files to your commit
+### Add files to your commit
 - Command: `git add {route to file}`
 
 
@@ -102,8 +99,7 @@ $ git add index.html
 
 ---
 
-# Creating a commit
-## After file is added
+### After file is added
 ```sh
 thibaut in ~/Projects/git-class-osoc
 $ git status
@@ -116,8 +112,7 @@ $ git status
 ```
 ---
 
-# Creating a commit
-## Save your changes
+### Save your changes
 ```sh
 git commit
 ```
@@ -139,8 +134,7 @@ git commit
 
 ---
 
-# Creating a commit
-## Save your changes
+### Add info to your commit
 ```sh
 Creation of the homepage
 
@@ -161,7 +155,7 @@ This page will be the homepage of the site.
 
 ---
 
-# Push commit
+### Push commit
 - Push new branch
 ```sh
 thibaut in ~/Projects/git-class-osoc
@@ -175,8 +169,7 @@ $ git push
 
 ---
 
-# Push commit
-## Result
+#### Result
 ```sh
 thibaut in ~/Projects/git-class-osoc
 $ git commit
