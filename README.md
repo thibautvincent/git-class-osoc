@@ -39,7 +39,7 @@ $ git config --global user.email lorem@ips.um
 
 ---
 
-# Creating repository
+## Creating repository
 - Start tracking files in a directory with
 `git init`
 
@@ -51,7 +51,7 @@ $ git config --global user.email lorem@ips.um
 
 ---
 
-# Initializing of my project (example)
+#### Example
 ```sh
 thibaut in ~/Projects/git-class-osoc
 $ git init
@@ -60,7 +60,7 @@ Initialized empty Git repository in /Users/thibautvincent/Projects/git-demo/.git
 
 ---
 
-# Working on existing files in repository
+## Working on existing files in repository
 - Start working on files
  `git clone git@github.com:thibautvincent/git-class-osoc.git`
 
