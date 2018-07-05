@@ -265,7 +265,7 @@ Date:   Tue Mar 19 21:24:13 2013 +0100
 #### Check differences in a file (compared to repository)
 	$ git diff file
 ####  Check history
-	$ git history
+	$ git log
 
 ---
 
