@@ -283,3 +283,39 @@ Date:   Tue Mar 19 21:24:13 2013 +0100
 - The head is a reference to a commit object. Mostly this will be the latest commit
 - After every commit the head will change to the latest commit
 ![](/Users/thibautvincent/Projects/git-class-osoc/git-timeline-master-head.png)
+
+---
+
+## Moving the head
+	$ git checkout {commitId}
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git log
+commit c53f9b6bd0e7271af7c5d856f84f51d9b749d77f
+Author: Thibaut <thibautvincent@icloud.com>
+Date:   Tue Mar 19 22:09:32 2013 +0100
+
+    Hello
+
+commit 1d7a18481b5f6664d2cf30b1455c6ad1c041caa2
+Author: Thibaut <thibautvincent@icloud.com>
+Date:   Tue Mar 19 21:24:13 2013 +0100
+
+    Deleted test2.txt
+```
+
+---
+
+- Checking out to the desired commit
+
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git checkout c53f9b6bd0e7271af7c5d856f84f51d9b749d77f
+Note: checking out 'c53f9b6bd0e7271af7c5d856f84f51d9b749d77f'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+HEAD is now at c53f9b6bd0e7271af7c5d856f84f51d9b749d77f... Deleted test2.txt
+```
