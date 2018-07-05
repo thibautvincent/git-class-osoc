@@ -35,7 +35,13 @@ $ git config --global user.email thibautvincent@icloud.com
 
 ---
 
-# Getting started
+# Repositories
+- The purpose of Git is to manage a project, or a set of files, as they change over time. Git stores this information in a data structure called a repository.
+
+- A git repository contains, among other things, the following:
+
+	- A set of commit objects.
+	- Branches
 
 ---
 
@@ -55,32 +61,114 @@ $ git config --global user.email thibautvincent@icloud.com
 ```sh
 thibaut in ~/Projects/git-class-osoc
 $ git init
-Initialized empty Git repository in /Users/thibautvincent/Projects/git-demo/.git/
+Initialized empty Git repository in
+/Users/thibautvincent/Projects/git-demo/.git/
 ```
 
 ---
 
-## Working on existing files in repository
-Start working on files
-
-	git clone git@github.com:thibautvincent/git-class-osoc.git
+# Remotes
+- A repository can be synched with a server
+	- In Git this is called a remote
+	- A remote is identified by a name, defaulting to origin, and a URL
+	- Keep a local copy in sync with the remote by pushing and pulling
+	- Several users can push/pull to/from the same remote
 
 ---
 
-## Check the status
-	$ git status
+## Add a remote
+
+---
+
+### If a local copy of a repository doesn't exist yet
+A local copy of the master + the entire commit history is created
+
 ```sh
 thibaut in ~/Projects/git-class-osoc
-$ git status
-#
-# Untracked files:
-#	index.html
-#
+$ git clone git@github.com:thibautvincent/git-class-osoc.git
 ```
-Git compares the current state to the last state stored in the history
 
 ---
 
+### If a local copy of a repository already exists
+If the remote repository is empty, push your master to it
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git remote add origin git@github.com:thibautvincent/git-class-osoc.git
+
+thibaut in ~/Projects/git-class-osoc
+$ git push origin master
+```
+
+---
+
+## Push and pull
+### Publish locally committed changes
+	$ git push origin master
+
+### Pull changes from the server
+	$ git pull
+    or
+    $ git pull origin {branch}
+
+---
+
+# Branching
+- Default branch `master`
+- List all branches
+	`$ git branch`
+- Create other branches to develop experimental features
+	`$ git branch this-is-my-new-branch`
+    This is local. You have to push your new branch before anyone else can see it
+
+- Activate (checkout) a branch
+	`$ git checkout this-is-my-new-branch`
+
+
+---
+
+# Branching off
+Create a new branch from another branch
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git branch
+* master
+
+thibaut in ~/Projects/git-class-osoc
+$ git branch this-is-my-new-branch
+
+thibaut in ~/Projects/git-class-osoc
+$ git branch
+  this-is-my-new-branch
+* master
+
+thibaut in ~/Projects/git-class-osoc
+$ git checkout this-is-my-new-branch
+Switched to branch 'this-is-my-new-branch'
+
+```
+
+---
+
+## How does it looks like
+
+---
+
+![](/Users/thibautvincent/Projects/git-class-osoc/git-branching-1.png)
+
+---
+
+![](/Users/thibautvincent/Projects/git-class-osoc/git-branching-2.png)
+
+---
+
+![](/Users/thibautvincent/Projects/git-class-osoc/git-branching-3.png)
+
+---
+
+# Committing
+
+---
 
 ## Creating a commit
 - A commit saves a change
@@ -89,12 +177,23 @@ Git compares the current state to the last state stored in the history
 
 ---
 
+## Check the status
+Git compares the current state to the last state stored in the history
+
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git status
+#
+# Untracked files:
+#	index.html
+#
+```
+
+---
+
 ### Add files to your commit
 Before creating a commit, you have to add changes
 
-	$ git add {route to file}
-
-Example
 ```sh
 thibaut in ~/Projects/git-class-osoc
 $ git add index.html
@@ -117,7 +216,7 @@ $ git status
 
 ### Save your changes
 
-	git commit
+	$ git commit
 
 ```sh
 
@@ -171,7 +270,7 @@ $ git push
 
 ---
 
-#### Result
+### Result
 ```sh
 thibaut in ~/Projects/git-class-osoc
 $ git commit
@@ -186,7 +285,7 @@ $ git commit
 
 ---
 
-Only staged files are committed (`git add`)
+Only staged files are committed
 ```sh
 thibaut in ~/Projects/git-class-osoc
 $ git status
@@ -325,85 +424,3 @@ HEAD is now at c53f9b6bd0e7271af7c5d856f84f51d9b749d77f... Deleted test2.txt
 
 ---
 
-# Remotes
-- A repository can be synched with a server
-	- In Git this is called a remote
-	- A remote is identified by a name, defaulting to origin, and a URL
-	- Keep a local copy in sync with the remote by pushing and pulling
-	- Several users can push/pull to/from the same remote
-
----
-
-## Add a remote
-
----
-
-### If a local copy of a repository doesn't exist yet
-A local copy of the master + the entire commit history is created
-
-```sh
-thibaut in ~/Projects/git-class-osoc
-$ git clone git@github.com:thibautvincent/git-class-osoc.git
-```
-
----
-
-### If a local copy of a repository already exists
-If the remote repository is empty, push your master to it
-```sh
-thibaut in ~/Projects/git-class-osoc
-$ git remote add origin git@github.com:thibautvincent/git-class-osoc.git
-
-thibaut in ~/Projects/git-class-osoc
-$ git push origin master
-```
-
----
-
-## Push and pull
-### Publish locally committed changes
-	$ git push origin master
-
-### Pull changes from the server
-	$ git pull
-    or
-    $ git pull origin {branch}
-
----
-
-# Branching
-- Default branch `master`
-- List all branches
-	`$ git branch`
-- Create other branches to develop experimental features
-	`$ git branch this-is-my-new-branch`
-    This is local. You have to push your new branch before anyone else can see it
-
-- Activate (checkout) a branch
-	`$ git checkout this-is-my-new-branch`
-
-
----
-
-# Branching off
-Create a new branch from another branch
-```sh
-thibaut in ~/Projects/git-class-osoc
-$ git branch
-* master
-
-thibaut in ~/Projects/git-class-osoc
-$ git branch this-is-my-new-branch
-
-thibaut in ~/Projects/git-class-osoc
-$ git branch
-  this-is-my-new-branch
-* master
-
-thibaut in ~/Projects/git-class-osoc
-$ git checkout experiment
-Switched to branch 'experiment'
-
-```
-
----
