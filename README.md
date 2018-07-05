@@ -275,3 +275,11 @@ Date:   Tue Mar 19 21:24:13 2013 +0100
 
 - This timeline is also called a branch
 ![](/Users/thibautvincent/Projects/git-class-osoc/master-branch.png)
+
+
+---
+
+## Head
+- The head is a reference to a commit object. Mostly this will be the latest commit
+- After every commit the head will change to the latest commit
+![](/Users/thibautvincent/Projects/git-class-osoc/git-timeline-master-head.png)
