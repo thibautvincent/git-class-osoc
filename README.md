@@ -336,4 +336,24 @@ HEAD is now at c53f9b6bd0e7271af7c5d856f84f51d9b749d77f... Deleted test2.txt
 
 ## Add a remote
 
+---
+
 ### If a local copy of a repository doesn't exist yet
+A local copy of the master + the entire commit history is created
+
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git clone git@github.com:thibautvincent/git-class-osoc.git
+```
+
+---
+
+### If a local copy of a repository already exists
+If the remote repository is empty, push your master to it
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git remote add origin git@github.com:thibautvincent/git-class-osoc.git
+
+thibaut in ~/Projects/git-class-osoc
+$ git push origin master
+```
