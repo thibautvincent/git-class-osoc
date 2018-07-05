@@ -357,3 +357,16 @@ $ git remote add origin git@github.com:thibautvincent/git-class-osoc.git
 thibaut in ~/Projects/git-class-osoc
 $ git push origin master
 ```
+
+---
+
+## Push and pull
+### Publish locally committed changes
+	$ git push origin master
+
+### Pull changes from the server
+	$ git pull
+    or
+    $ git pull origin {branch}
+
+---
