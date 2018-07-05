@@ -174,6 +174,16 @@ Switched to branch 'this-is-my-new-branch'
 
 ---
 
+## Publishing/pulling branches
+### Publish a branch
+	$ git push origin localbranch:remotebranch`
+### Update remote branch list
+	$ git remote update
+### Fetch all remote branches
+	$ git fetch origin
+
+---
+
 # Committing
 
 ---
@@ -422,3 +432,6 @@ HEAD is now at c53f9b6bd0e7271af7c5d856f84f51d9b749d77f... Deleted test2.txt
 
 ---
 
+# Merging
+
+---
