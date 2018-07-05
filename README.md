@@ -395,6 +395,15 @@ $ git branch
 thibaut in ~/Projects/git-class-osoc
 $ git branch this-is-my-new-branch
 
+thibaut in ~/Projects/git-class-osoc
+$ git branch
+  this-is-my-new-branch
+* master
+
+thibaut in ~/Projects/git-class-osoc
+$ git checkout experiment
+Switched to branch 'experiment'
+
 ```
 
 ---
