@@ -21,8 +21,8 @@ By Thibaut Vincent
 - Download the Git binary from git-scm.com (Windows)
 - Set default credentials
 ```
-$ git config --global user.name "Lorem Ipsum"
-$ git config --global user.email lorem@ips.um
+$ git config --global user.name "Thibaut Vincent"
+$ git config --global user.email thibautvincent@icloud.com
 ```
 
 ---
@@ -40,14 +40,14 @@ $ git config --global user.email lorem@ips.um
 ---
 
 ## Creating repository
-- Start tracking files in a directory with
-	`$ git init`
+### Start tracking files in a directory with
+	$ git init
 
-- Autocreation of `.git` folder
-	- Meta information
-	- History
-	- Hooks (pre-commit checking, etc)
-	- ...
+### Autocreation of `.git` folder
+- Meta information
+- History
+- Hooks (pre-commit checking, etc)
+- ...
 
 ---
 
@@ -61,13 +61,14 @@ Initialized empty Git repository in /Users/thibautvincent/Projects/git-demo/.git
 ---
 
 ## Working on existing files in repository
-- Start working on files
- `git clone git@github.com:thibautvincent/git-class-osoc.git`
+Start working on files
+
+	git clone git@github.com:thibautvincent/git-class-osoc.git
 
 ---
 
 ## Check the status
-`git status`
+	$ git status
 ```sh
 thibaut in ~/Projects/git-class-osoc
 $ git status
@@ -89,9 +90,11 @@ Git compares the current state to the last state stored in the history
 ---
 
 ### Add files to your commit
-- Command: `$ git add {route to file}`
+Before creating a commit, you have to add changes
 
+	$ git add {route to file}
 
+Example
 ```sh
 thibaut in ~/Projects/git-class-osoc
 $ git add index.html
@@ -225,10 +228,10 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ---
 
 ### Added file by accident?
-```git reset index.html```
+	git reset index.html
 
 ### Compare the current state with the previously committed state
-``` git diff index.html```
+	git diff index.html
 
 ---
 
@@ -319,3 +322,18 @@ state without impacting any branches by performing another checkout.
 
 HEAD is now at c53f9b6bd0e7271af7c5d856f84f51d9b749d77f... Deleted test2.txt
 ```
+
+---
+
+# Remotes
+- A repository can be synched with a server
+	- In Git this is called a remote
+	- A remote is identified by a name, defaulting to origin, and a URL
+	- Keep a local copy in sync with the remote by pushing and pulling
+	- Several users can push/pull to/from the same remote
+
+---
+
+## Add a remote
+
+### If a local copy of a repository doesn't exist yet
