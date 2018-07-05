@@ -432,6 +432,56 @@ HEAD is now at c53f9b6bd0e7271af7c5d856f84f51d9b749d77f... Deleted test2.txt
 
 ---
 
-# Merging
+# Tips and tricks
 
 ---
+
+## Gitignore
+- Never commit config files!
+- Add them to .gitignore
+```
+Thumbs.db
+app.db
+*.log
+vendor/*
+node_modules/*
+config.php
+```
+
+---
+
+## Partly staging files
+```
+bramus in ~/ikdoeict/ikdoeict-website on master*
+$ git add -p index.html
+diff --git a/index.html b/index.html
+index 3fc8413..d7af84e 100644
+--- a/index.html
++++ b/index.html
+@@ -1,6 +1,6 @@
+ <!DOCTYPE html>
+ <head>
+-	<title>Title</title>
++	<title>Home | Homepage</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/normalize.css" />
+Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]? y
+
+
+ ```
+
+---
+
+## Not enough?
+Make sure you also check
+- Stashing
+- Tagging
+- Cherry Picking
+- Commit hooks
+
+---
+
+# Sources
+- http://bramus.github.io/ws2-sws-course-materials
+- http://learn.github.com/
+- https://git-scm.com/
