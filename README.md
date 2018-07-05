@@ -114,6 +114,14 @@ $ git push origin master
 ---
 
 # Branching
+- The entire commit history can be visualized as a timeline
+![](/Users/thibautvincent/Projects/git-class-osoc/branch-history.png)
+
+- This timeline is also called a branch
+![](/Users/thibautvincent/Projects/git-class-osoc/master-branch.png)
+
+---
+
 - Default branch `master`
 - List all branches
 	`$ git branch`
@@ -368,16 +376,6 @@ Date:   Tue Mar 19 21:24:13 2013 +0100
 	$ git diff file
 ####  Check history
 	$ git log
-
----
-
-# Branching
-- The entire commit history can be visualized as a timeline
-![](/Users/thibautvincent/Projects/git-class-osoc/branch-history.png)
-
-- This timeline is also called a branch
-![](/Users/thibautvincent/Projects/git-class-osoc/master-branch.png)
-
 
 ---
 
