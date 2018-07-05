@@ -370,3 +370,31 @@ $ git push origin master
     $ git pull origin {branch}
 
 ---
+
+# Branching
+- Default branch `master`
+- List all branches
+	`$ git branch`
+- Create other branches to develop experimental features
+	`$ git branch this-is-my-new-branch`
+    This is local. You have to push your new branch before anyone else can see it
+
+- Activate (checkout) a branch
+	`$ git checkout this-is-my-new-branch`
+
+
+---
+
+# Branching off
+Create a new branch from another branch
+```sh
+thibaut in ~/Projects/git-class-osoc
+$ git branch
+* master
+
+thibaut in ~/Projects/git-class-osoc
+$ git branch this-is-my-new-branch
+
+```
+
+---
