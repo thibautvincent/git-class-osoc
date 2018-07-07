@@ -494,4 +494,6 @@ Make sure you also check
 - http://learn.github.com/
 - https://git-scm.com/
 
+---
+
 # Demo
