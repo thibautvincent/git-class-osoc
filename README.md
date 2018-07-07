@@ -35,7 +35,7 @@ $ git config --global user.email thibautvincent@icloud.com
 
 ---
 
-# GIT GUI's (not recommanded)
+# GIT GUI's (not recommended)
 - Some very basic GUIS
 - Other Git GUIs also exist
 	- Windows: Sourcetree, TortoiseGit, SmartGit, etc.
