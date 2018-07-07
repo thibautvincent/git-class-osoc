@@ -4,6 +4,14 @@ Git
 ===
 By Thibaut Vincent
 
+
+---
+
+# Who I am
+- Thibaut Vincent
+- Full Stack Web Developer @ CXSocial (formerly Engagor)
+- oSoc participant '16
+
 ---
 
 # What is Git
