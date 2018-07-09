@@ -360,6 +360,32 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 ---
 
+
+# Merging
+
+---
+
+![](/Users/thibautvincent/Projects/git-class-osoc/Merging.png)
+
+---
+
+```sh
+# Start a new feature
+git checkout -b new-feature master
+# Edit some files
+git add <file>
+git commit -m "Start a feature"
+# Edit some files
+git add <file>
+git commit -m "Finish a feature"
+# Merge in the new-feature branch
+git checkout master
+git merge new-feature
+```
+
+---
+
+
 # History
 ```sh
 thibaut in ~/Projects/git-class-osoc
