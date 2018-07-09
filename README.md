@@ -15,7 +15,7 @@ By Thibaut Vincent
 ---
 
 # What is Git
-- Verison Control System
+- Version Control System
 	- Keep track of files
 	- Keep history of every file
 - Distributed
