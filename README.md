@@ -184,13 +184,14 @@ Switched to branch 'this-is-my-new-branch'
 
 ## Publishing/pulling branches
 ### Publish a branch
-	$ git push origin localbranch:remotebranch`
+	$ git push origin localbranch:remotebranch
 ### Update remote branch list
 	$ git remote update
 ### Fetch all remote branches
 	$ git fetch origin
 
 ---
+
 
 # Committing
 
@@ -352,11 +353,36 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 ---
 
+## Partly staging files
+```
+thibaut in ~/Projects/git-class-osoc
+$ git add --patch index.html
+diff --git a/index.html b/index.html
+index 3fc8413..d7af84e 100644
+--- a/index.html
++++ b/index.html
+@@ -1,6 +1,6 @@
+ <!DOCTYPE html>
+ <head>
+-	<title>Title</title>
++	<title>Home | Homepage</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/normalize.css" />
+Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]? y
+
+
+ ```
+
+---
+
 ### Added file by accident?
 	git reset index.html
 
 ### Compare the current state with the previously committed state
 	git diff index.html
+
+### In case of emergency
+http://ohshitgit.com/
 
 ---
 
@@ -409,7 +435,8 @@ Date:   Tue Mar 19 21:24:13 2013 +0100
 #### Create repository
 	$ git init
 #### Stage file
-	$ git add file
+	$ git add file (new file)
+    $ git add -p file (edited file)
 ### Unstage file
 	$ git reset file
 
@@ -439,28 +466,6 @@ vendor/*
 node_modules/*
 config.php
 ```
-
----
-
-## Partly staging files
-```
-thibaut in ~/Projects/git-class-osoc
-$ git add --patch index.html
-diff --git a/index.html b/index.html
-index 3fc8413..d7af84e 100644
---- a/index.html
-+++ b/index.html
-@@ -1,6 +1,6 @@
- <!DOCTYPE html>
- <head>
--	<title>Title</title>
-+	<title>Home | Homepage</title>
-	<meta charset="utf-8" />
-	<link rel="stylesheet" href="css/normalize.css" />
-Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]? y
-
-
- ```
 
 ---
 
