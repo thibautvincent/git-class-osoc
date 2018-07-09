@@ -488,6 +488,7 @@ Make sure you also check
 - http://bramus.github.io/ws2-sws-course-materials
 - http://learn.github.com/
 - https://git-scm.com/
+- https://github.com/paulirish/git-open
 
 ---
 
