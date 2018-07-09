@@ -444,8 +444,8 @@ config.php
 
 ## Partly staging files
 ```
-bramus in ~/ikdoeict/ikdoeict-website on master*
-$ git add -p index.html
+thibaut in ~/Projects/git-class-osoc
+$ git add --patch index.html
 diff --git a/index.html b/index.html
 index 3fc8413..d7af84e 100644
 --- a/index.html
