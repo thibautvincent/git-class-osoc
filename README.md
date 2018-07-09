@@ -340,7 +340,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 #### Write good commit messages
 - English
 - Present tense
-### One commit is on change
+### One commit is one change
 - Don't fix bugs/ implement new features in 1 commit
 
 ---
