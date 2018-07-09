@@ -36,8 +36,8 @@ $ git config --global user.email thibautvincent@icloud.com
 ---
 
 # GIT GUI's (not recommended)
-- Some very basic GUIS
-- Other Git GUIs also exist
+- Very basic
+- Existing GUI's
 	- Windows: Sourcetree, TortoiseGit, SmartGit, etc.
 	- OS X: Sourcetree, Tower (paid), Gitkraken,  etc.
 
@@ -498,3 +498,8 @@ Make sure you also check
 ---
 
 # Demo
+
+
+---
+
+# https://github.com/thibautvincent/git-class-osoc
