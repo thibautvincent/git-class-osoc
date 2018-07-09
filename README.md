@@ -464,6 +464,17 @@ Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]? y
 
 ---
 
+# Pull request
+
+---
+
+- Let others review your code
+- Easy to see the changes
+- Possible to assign team members
+- Example in demo
+
+---
+
 ## Not enough?
 Make sure you also check
 - Stashing
